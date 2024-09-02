@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+<link rel="stylesheet" href="./style.css">
+ 
+</head>
+<body>
+
+  <!-- Sign-up form start -->
+
+
+  <section class="wrapper-signUp active">
+    <form action="#">
+      <h1>Stay updated!</h1>
+      <p class="text">
+        Join 60,000+ product managers receiving monthly updates on:
+
+      </p>
+      
+      
+      
+      <ul>
+        <li>Product discovery and building what matters</li>
+        <li>Measuring to ensure updates are a success</li>
+        <li>And much more!</li>
+      </ul>
+
+      <label for="email" >Email address</label>
+      <input pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" type="email" name="email" id="email" placeholder="email@company.com"  required>
+      <span>Valid email required</span>
+
+
+      <button class="btn btn-signUp" type="submit">Subscribe to monthly newsletter</button>
+    </form>
+    <div class="hero-img" ></div>
+  </section>
+
+  
+  <section class="wrapper-success hidden" >
+    <img class="success-img" src="./assets/images/icon-success.svg" alt="Icon Success">
+    <h1>
+      Thanks for subscribing!
+    </h1>
+
+    <p class="text">
+      A confirmation email has been sent to <strong>ash@loremcompany.com. </strong>
+      Please open it and click the button inside to confirm your subscription.
+    </p>
+  <button class="btn btn-success"> Dismiss message</button>
+
+  </section>
+
+
+  
+  
+
+  
+
+  <!-- Sign-up form end -->
+
+  <!-- Success message start -->
+
+
+ 
+
+ 
+
+  <!-- Success message end -->
+  
+<script src="./main.js"></script>
+</body>
+</html>
